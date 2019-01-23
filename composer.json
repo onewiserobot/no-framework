@@ -1,0 +1,21 @@
+{
+  "name": "PHP no framework",
+  "description": "Learning how to structure PHP application without a framework",
+  "keywords": ["no framework"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patrick Louys",
+      "role": "creator"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "filp/whoops": "~2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Example\\": "src/"
+    }
+  }
+}
